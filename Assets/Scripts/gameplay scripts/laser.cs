@@ -23,6 +23,7 @@ public class laser : MonoBehaviour
 
     void Start()
     {
+        fire_laser_limit = 0;
 
         player_rb = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>();
 
